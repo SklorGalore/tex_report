@@ -153,7 +153,7 @@ Next, using the base formula for a voltage divider, the gain is calculated.
 	M &= \left| \frac{1}{1 + \frac{Z_{L_r} + Z_{C_r}}{Z_{L_m} // R_{AC}}} \right| \\
 	M &= \left| \frac{1}{1 + (j\omega L_r + \frac{1}{j\omega C_r})(\frac{1}{j\omega L_m} + \frac{1}{R_{AC}})} \right| \\
 	M &= \left| \frac{1}{1 + \frac{L_r}{L_m} - \frac{1}{\omega^2 L_m C_r} + j(\frac{\omega L_r}{R_{AC}} - \frac{1}{\omega C_r R_{AC}})} \right| \\
-	f' &= \frac{\omega}{\omega_r}, \quad\, \quad Q = \frac{\sqrt{L_r/C_r}}{R_{AC}}, \quad K = \frac{L_m}{L_r} \\
+	f' &= \frac{\omega}{\omega_r}\, \quad Q = \frac{\sqrt{L_r/C_r}}{R_{AC}}, \quad K = \frac{L_m}{L_r} \\
 	M &= \left| \frac{1}{1 + \frac{1}{K} (1 - \frac{1}{f'^2}) + j Q (f' - \frac{1}{f'})} \right| \\
 	M &= \frac{1}{\sqrt{\left[ 1 + \frac{1}{K} \left( 1 - \frac{1}{f'^2} \right) \right]^2 + \left[ Q \left( f' - \frac{1}{f'} \right) \right]^2}} \\
 	M &= \frac{f'^2 K}{\sqrt{[(K+1)f'^2 - 1]^2 + [QKf'(f'^2 - 1)]^2}}
