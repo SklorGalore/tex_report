@@ -120,7 +120,7 @@ By neglecting the effect of harmonics beyond the first, an equivalent idealized 
 	V_{s,pk}=\frac{4V_s}{\pi}\rightarrow V_{s,RMS}=\frac{4V_s}{\sqrt{2}\pi}
 \end{gather*}
 
-By taking the same assumptions to the load, an equivalently behaved $R_AC$ can be used.
+By taking the same assumptions to the load, an equivalently behaved $R_{AC}$ can be used.
 \begin{gather*}
 	V_{out}=\sum_{m=1,3,5...}^\infty\frac{4V_{out}}{\pi m}\sin\omega t m\\
 	V_{out,pk}=\frac{4V_{out}}{\pi}\rightarrow V_{out,RMS}=\frac{4V_{out}}{\sqrt{2}\pi}\\
@@ -148,12 +148,16 @@ Next, using the base formula for a voltage divider, the gain is calculated.
 
 \section{AI Based Design}
 
-Following a better understanding of the converter which allows for design using traditional methods, data collection began on the simulink model to prepare for training a machine learning model.
+Following a better understanding of the converter which allows for design using traditional methods, data collection began on the MATLAB Simulink model to prepare for training a machine learning model.
+Using the base model parameters,
+\[L_r = 30\mu\text{H},\ C=47\text{nF},\ L_m = 60\mu\text{H},\]
+\[f_{sw}=f_{r}=\frac{1}{2\pi\sqrt{L_rC_r}},\ n=1.25\]
+A sweep of power ratings, switching frequencies, and tank components was performed to generate training data for the model.
+These model runs were parallelized for training using MATLAB code to take advantage of multiple machine cores across different computers to accelerate data generation.
 
 %\begin{thebibliography}{00}
 %
 %\end{thebibliography}
-
 
 \newpage
 \section{Appendix}
