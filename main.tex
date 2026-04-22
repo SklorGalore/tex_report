@@ -146,6 +146,15 @@ Next, using the base formula for a voltage divider, the gain is calculated.
 	M(f^\prime,Q,K) = \frac{f^{\prime^2}K}{\sqrt{\left[(K + 1)f^{\prime^2} - 1\right]^2 + \left[QKf^\prime(f^{\prime^2} - 1)\right]^2}}
 \end{gather*}
 
+\section{AI Based Design}
+
+Following a better understanding of the converter which allows for design using traditional methods, data collection began on the simulink model to prepare for training a machine learning model.
+
+%\begin{thebibliography}{00}
+%
+%\end{thebibliography}
+
+
 \newpage
 \section{Appendix}
 \subsection{Full Gain Calculation}
@@ -157,9 +166,5 @@ Next, using the base formula for a voltage divider, the gain is calculated.
 	M &= \frac{1}{\sqrt{\left[ 1 + \frac{1}{K} \left( 1 - \frac{1}{f'^2} \right) \right]^2 + \left[ Q \left( f' - \frac{1}{f'} \right) \right]^2}} \\
 	M &= \frac{f'^2 K}{\sqrt{[(K+1)f'^2 - 1]^2 + [QKf'(f'^2 - 1)]^2}}
 \end{align*}
-
-%\begin{thebibliography}{00}
-%
-%\end{thebibliography}
 
 \end{document}
