@@ -83,16 +83,35 @@ The  function of the resonant tank and transformer are detailed below and take p
 	\label{fig:converterwaveforms}
 \end{figure}
 
-
 \subsection{Resonant Mode 1}
+Resonant mode 1 occurs between $0<t<t_1$ where the first set of switches begins closed.
+During this time, the magnetizing inductor current rises will the resonant inductor current rises and falls sinusoidally.
+Eventually at $t=t_1$, the resonant inductor current will meet the magnetizing inductor current.
+When this occurs, the current flow from the high side to the low side of the transformer will be zero.
+In this moment, there will be no current flowing through the low side active switches and they can be opened under zero current.
 
 \subsection{Resonant Mode 2}
 
+In resonant mode 2, all switches are open, and the resonant tank begins to resonate at the frequency associated with the magnetizing inductor.
+Following a dead time, the output capacitance of the secondary pairs of MOSFETs will discharge to zero and the body diodes will clamp across them, allowing the next set of switches to be closed under zero voltage at time $t=t_2$.
 \subsection{Resonant Mode 3}
 
+Similarly to the first resonant mode, current will vary through the resonant inductor and the magnetizing inductor current will fall until the two are once again equal.
+At this point, $t=t_3$, the current through the transformer will return to zero and the active switches can be opened under zero current.
 \subsection{Resonant Mode 4}
 
+Similarly to mode 2, the final open switch capacitances will discharge, clamping their body diodes across them, and allowing them to be closed under zero voltage.
 \section{Equivalenced Circuits}
+
+For ease of derivation and to simplify the necessary equations, the full bridge LLC series resonant converter can be simplified as a voltage source, LLC resonant tank, and constant impedance load.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{figures/LLC_equiv}
+	\caption{}
+	\label{fig:llcequiv}
+\end{figure}
+
 
 \section{Gain Derivation}
 
