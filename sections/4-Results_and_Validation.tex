@@ -1,3 +1,51 @@
 \section{Results and Validation} \label{sec:results}
 
-xxxx
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{figures/Result_1.png}
+    \caption{Input and output waveforms under steady-state operation.}
+    \label{fig:Result_1}
+\end{figure}
+
+Fig.~\ref{fig:Result_1} presents the simulated waveforms of the input voltage ($V_{in}$), input current ($i_{in}$), output voltage ($V_o$), and output current ($I_o$) for the designed LLC resonant converter operating at approximately 10~kW. The waveforms are captured under steady-state conditions, with the converter operating close to the resonant frequency. The input current exhibits a pulsating behavior characteristic of resonant converters, reflecting the energy transfer through the tank. The output voltage and current remain nearly constant with low ripple, indicating stable operation and effective filtering at the output stage.
+
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{figures/Result_2.png}
+    \caption{Resonant tank and inverter waveforms.}    
+    \label{fig:Result_2}
+\end{figure}
+
+Fig.~\ref{fig:Result_2} presents the steady-state waveforms of the input voltage ($V_{in}$), input current ($i_{in}$), inverter output voltage ($V_{AB}$), and resonant inductor current ($i_{Lr}$) for the LLC converter operating at approximately 10~kW. The input voltage remains constant, while the input current exhibits a pulsating behavior associated with the power transfer through the resonant tank. The inverter output voltage $V_{AB}$ shows a square waveform due to the full-bridge switching operation. In contrast, the resonant inductor current $i_{Lr}$ is nearly sinusoidal, indicating that the converter operates close to its resonant frequency. This operating condition promotes efficient energy transfer and is consistent with soft-switching operation, contributing to reduced switching losses.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{figures/Result_3.png}
+    \caption{Switch voltage and current waveforms.}
+    \label{fig:Result_3}
+\end{figure}
+
+Fig.~\ref{fig:Result_3} shows the voltage and current waveforms of the switches ($Q_1$-$Q_4$) during steady-state operation. The switch voltages exhibit the expected square-wave behavior associated with the full-bridge topology, while the corresponding currents follow a quasi-sinusoidal profile imposed by the resonant tank.
+
+It can be observed that the current through each switch naturally goes to zero before commutation, indicating soft-switching conditions. This behavior reduces switching losses and electromagnetic stress on the devices, contributing to improved converter efficiency. The symmetry between the switches also confirms balanced operation of the full-bridge converter.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{figures/Result_4.png}
+    \caption{Switch power losses.}    
+    \label{fig:Result_4}
+\end{figure}
+
+Fig.~\ref{fig:Result_4} shows the instantaneous power losses of the switches ($Q_1$–$Q_4$) under steady-state operation. The losses are concentrated during the conduction intervals of each device and follow the current profile imposed by the resonant tank. The smooth shape of the loss waveforms and the absence of pronounced switching spikes indicate reduced switching energy, while the similar profiles among the switches confirm uniform loss distribution in the full-bridge structure. This behavior supports efficient operation with limited switching stress on the semiconductor devices.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.9\columnwidth]{figures/Result_5.png}
+    \caption{Switching frequency, power, and efficiency.}
+    \label{fig:Result_5}
+\end{figure}
+
+Fig.~\ref{fig:Result_5} presents the switching frequency, input and output power, and the resulting efficiency under steady-state operation. The switching frequency remains constant, indicating stable control conditions. The input and output power profiles are also nearly constant, with a small difference corresponding to the system losses.
+
+The efficiency remains stable around 98.9\%, confirming that the converter operates under high-efficiency conditions with limited power dissipation. The consistency of these quantities over time validates both the steady-state operation and the reliability of the computed efficiency.
