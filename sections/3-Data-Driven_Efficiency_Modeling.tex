@@ -4,7 +4,7 @@ Fig.~\ref{fig:workflow} illustrates the proposed data-driven workflow, including
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.9\textwidth]{figures/AI_Steps.png}
+    \includegraphics[width=\textwidth]{figures/AI_Steps.png}
     \caption{AI-based efficiency modeling workflow.}
     \label{fig:workflow}
 \end{figure*}
@@ -13,7 +13,7 @@ The dataset was generated through large-scale time-domain simulations using a de
 
 For each operating condition, the switching frequency ($f_s$) was swept within a $\pm 1\%$ range around the resonant frequency using seven equally spaced points (three below, one at resonance, and three above), ensuring that the analysis captures the region close to resonance, which is critical for high-efficiency operation. A total of 4536 scenarios were simulated, generating approximately 10~GB of data and resulting in a comprehensive dataset that captures the complex relationships between design parameters and converter efficiency.
 
-Each scenario was simulated for a duration of 100~ms, allowing the system to reach steady-state conditions. The relevant performance metrics were extracted from the last 10~ms of the simulation to ensure that transient effects were excluded from the analysis. The input and output power were computed by averaging the instantaneous power over the steady-state interval, and the efficiency was calculated as the ratio between the average output power and the average input power.
+Each scenario was simulated for a duration of 10~ms, allowing the system to reach steady-state conditions. The relevant performance metrics were extracted from the last 1~ms of the simulation to ensure that transient effects were excluded from the analysis. The input and output power were computed by averaging the instantaneous power over the steady-state interval, and the efficiency was calculated as the ratio between the average output power and the average input power.
 
 Since the study focuses on parameter design, all time-domain signals were reduced to representative scalar features using either average or root mean square (RMS) values, depending on the nature of each signal. For instance, the inductor current ($i_{Lr}$), the resonant tank voltage ($V_{AB}$), the secondary voltage ($V_{Sec}$), the primary voltage ($V_{Pri}$), and the input current ($i_{In}$) were converted to RMS values, while the output voltage ($V_o$) and output power ($P_{out}$) were represented by their average values.
 
@@ -120,7 +120,7 @@ This formulation allows the identification of high-efficiency operating regions 
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=0.9\columnwidth]{figures/RF_Evaluation.png}
+    \includegraphics[width=\columnwidth]{figures/RF_Evaluation.png}
     \caption{Predicted versus actual efficiency using the Random Forest model.}
     \label{fig:RF_Evaluation}
 \end{figure}
