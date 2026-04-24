@@ -1,5 +1,16 @@
 \section{Introduction} \label{sec:introduction}
+Recent growth and adoption of data centers, electric vehicles, and renewable energy systems has increased the demand for highly efficient, power-dense, DC-DC converters. 
+Soft-switching resonant converters have emerged as a common solution % CITE?
+among available topologies due to their ability to achieve both zero voltage (ZVS) and zero current (ZCS) switching.
 
+Traditional design methodologies for soft-switching resonant converters remain complex and rely on approximating converter harmonics using first harmonic approximations (FHA) or complex time-domain analytical models.
+These designs may provide quick starting points, but can suffer from inaccuracy under light loading conditions, non-linear loads, or when operation of the converter is not near the resonant frequency.
+While time-domain analytical models may address some of these inaccuracies, they are time-consuming and computationally expensive % IS OUR METHOD MORE COMPUTATIONALLY EFFICIENT?
+which makes them impractical for large-scale optimization of multiple parameters or iterative design approaches.
 
-xxxx
+In order to address these challenges, this paper proposes a data-driven efficiency mapping framework for rapid resonant converter design.
+By utilizing comprehensive datasets generated through automated simulations, we developed a predictive model capable of mapping circuit design parameters such as resonant tank inductance and capacitance, switching frequency, and desired input and output voltages, directly to an expected converter efficiency.
+Through this approach, the need for iterative high computational cost computations can be bypassed allowing for accelerated design time.
+
+% What is this source for?
  \cite{abdel2012resonant}
