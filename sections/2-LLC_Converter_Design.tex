@@ -1,3 +1,44 @@
 \section{LLC Converter Design Background}\label{sec:LLC}
+For the purposes of this paper, a series resonant converter using a full-bridge inverter and full-bridge synchronous rectifier with an LLC tank was chosen due to its ability to achieve both zero current and zero voltage switching.
+The chosen circuit schematic can be seen in Figure \ref{fig:llcsr}.
 
-xxxx
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{figures/LLCSRC}
+	\caption{The initial circuit schematic for the series resonant LLC converter.}
+	\label{fig:llcsrc}
+\end{figure}
+
+To generate initial training data for the machine learning model, a converter using this topology was designed using the traditional first harmonic approximation (FHA) method.
+Under these assumptions, the circuit simplifies to the layout in Figure. \ref{fig:llcfha-3}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=.75\columnwidth]{figures/LLC_FHA-3}
+	\caption{The simplified converter topology under the first harmonic approximation}
+	\label{fig:llcfha-3}
+\end{figure}
+
+Under the assumption that the first harmonic contributed by the source is dominant, the gain of the converter can be derived as a voltage division between the load resistance in parallel with the transformer magnetizing inductance and the series tank impedance.
+\begin{align}
+	M &= \frac{V_{out}}{V_s}= \left|\frac{Z_{L_m}//R_{AC}} {Z_{L_m} // R_{AC} + Z_{L_r} + Z_{C_r}} \right|\\
+	&= \left| \frac{\left((j\omega L_m)^{-1} + R_{AC}^{-1}\right)^{-1}}{\left((j\omega L_m)^{-1} + R_{AC}^{-1}\right)^{-1} + j\omega L_r - \frac{j}{\omega C_r}} \right|\\
+	&= \frac{f^{\prime^2}k}{\sqrt{\left[(k+1)f^{\prime^2}-1\right]^2+\left[Qkf^\prime(f^{\prime^2}-1)\right]^2}}
+\end{align}
+Such that:
+\[Q = \frac{\sqrt{L_r/C_r}}{R_{AC}}\quad f^\prime = \frac{f_{sw}}{f_r}\quad k = \frac{L_m}{L_r}\]
+and:
+\[R_{AC}=\frac{8n^2}{\pi^2}R\]
+
+From here, knowing the desired gain, a transformer winding ratio can be chosen to ease the gain required by the resonant tank.
+With a known turns ratio, choose an applicable quality factor "Q" based on anticipated loading and determine the final gain by picking the resonant inductor value.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\columnwidth]{figures/gain_q_sweep}
+	\caption{Converter gain as a function of switching frequency and quality factor}
+	\label{fig:gain_q_sweep}
+\end{figure}
+
+Finally, ensure that the desired performance is achievable using the component ratings that have been chosen and select the necessary transformer and magnetizing inductance.
+Overall, it can be observed that this design is iterative in nature, requiring simulations of the converter between component choices, and will yield the most accurate results only near the resonant switching frequency.

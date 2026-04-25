@@ -22,7 +22,6 @@ This feature extraction process resulted in a structured dataset containing 4536
 At the end, a pre-processing step was performed to clean the dataset by removing the outliers and any non-physical results, such as efficiencies outside the range $0 \leq \eta \leq 1$. The cleaned dataset was then organized into a structured format suitable for machine learning, with each row representing a unique operating condition and its corresponding efficiency.
 
 Subsequently, 3 different machine learning models were evaluated, including Multi-Layer Perceptron (MLP), Random Forest (RF), and K-Nearest Neighbors (KNN). The machine learning models used in this work estimate the converter efficiency as a function of the operating conditions. The input feature vector is defined as:
-
 \begin{align}
     \mathbf{x} = [V_{in}, V_o, P_{out}, f_s, f_r, Z_r, k, Q]
 \end{align}
@@ -34,7 +33,6 @@ where $Z_r$ denotes the characteristic impedance of the resonant tank, defined a
 The Multilayer Perceptron (MLP) was evaluated as a nonlinear regression model to approximate the converter efficiency. The network consists of two hidden layers with 128 and 64 neurons, respectively, and employs the Rectified Linear Unit (ReLU) activation function to capture the nonlinear relationships between the operating conditions and the efficiency.
 
 The MLP model approximates the efficiency as a composition of linear transformations and nonlinear activation functions, given by:
-
 \begin{align}
 \eta &= f_{\mathrm{MLP}}(\mathbf{x}) \nonumber \\
      &= W_3\,\sigma\!\left(W_2\,\sigma\!\left(W_1 \mathbf{x} + b_1\right) + b_2\right) + b_3
@@ -49,7 +47,6 @@ The model was trained using the Adam optimizer with an initial learning rate of 
 A Random Forest (RF) regressor was employed to approximate the converter efficiency as a function of the operating conditions. The model consists of an ensemble of decision trees, where each tree is trained using a bootstrap sample of the dataset and a random subset of features.
 
 The RF model predicts the efficiency as the average output of all decision trees in the ensemble:
-
 \begin{align}
     \eta &= f_{\mathrm{RF}}(\mathbf{x}) = \frac{1}{N} \sum_{i=1}^{N} T_i(\mathbf{x})
 \end{align}
@@ -63,7 +60,6 @@ In this work, the model was configured with $N = 300$ trees, a maximum depth of 
 The K Nearest Neighbors (KNN) algorithm was also evaluated as a non-parametric regression model to estimate the converter efficiency. In this approach, the prediction for a given input is obtained based on the $k$ closest samples in the feature space.
 
 The KNN model estimates the efficiency as the average value of the target variable among the $k$ nearest neighbors:
-
 \begin{align}
     \eta &= f_{\mathrm{KNN}}(\mathbf{x}) = \frac{1}{k} \sum_{i \in \mathcal{N}_k(\mathbf{x})} y_i
 \end{align}
