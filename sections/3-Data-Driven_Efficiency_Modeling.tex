@@ -1,133 +1,115 @@
 \section{Data-Driven Efficiency Modeling}\label{sec:DataDriven}
 
-Fig.~\ref{fig:workflow} illustrates the proposed data-driven workflow, including dataset generation, feature extraction, model training, and design space exploration \cite{Sarada2026}. Each step uses the Python programming language and its associated libraries, such as NumPy for data manipulation, scikit-learn for machine learning, and Matplotlib for visualization.
+Fig.~\ref{fig:workflow} illustrates the proposed data-driven workflow, including dataset generation, feature extraction, model training, and design space exploration \cite{Sarada2026}. The workflow is implemented using standard scientific computing and machine learning tools.
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.8\textwidth]{figures/AI_Steps.png}
+    \includegraphics[width=\textwidth]{figures/AI_Steps.png}
     \caption{AI-based efficiency modeling workflow.}
     \label{fig:workflow}
 \end{figure*}
 
-The dataset was generated through large-scale time-domain simulations using a detailed LLC converter model implemented in MATLAB/Simulink. The main operating parameters were systematically varied within predefined ranges, including input voltage ($V_{in} \in \{400, 500, 600, 700, 800, 900\}\,\text{V}$), output voltage ($V_o \in \{400, 600, 800\}\,\text{V}$), output power ($P_{out} \in \{8, 10, 12\}\,\text{kW}$), resonant frequency ($f_r \in \{120, 130, 140\}\,\text{kHz}$), and quality factor ($Q \in \{0.3, 0.4, 0.5, 0.6\}$). A similar data-driven strategy based on simulation-generated datasets was adopted in \cite{AvilaSaccol2024}, where large-scale simulations in MATLAB/Simulink and PSIM were used to train deep neural network surrogate models for predicting the efficiency of DC/AC power converters under varying operating conditions.
+The dataset was generated through large-scale time-domain simulations using a detailed LLC converter model implemented in MATLAB/Simulink. The main operating parameters were systematically varied within predefined ranges, including input voltage ($V_{in}$), output voltage ($V_o$), output power ($P_{out}$), resonant frequency ($f_r$), and quality factor ($Q$). A similar strategy based on simulation-generated datasets has been adopted in prior work \cite{AvilaSaccol2024}.
 
-For each operating condition, the switching frequency ($f_s$) was swept within a $\pm 1\%$ range around the resonant frequency using seven equally spaced points (three below, one at resonance, and three above), ensuring that the analysis captures the region close to resonance, which is critical for high-efficiency operation. A total of 4536 scenarios were simulated, generating approximately 10~GB of data and resulting in a dataset that captures the relationship between design parameters and converter efficiency.
+For each operating condition, the switching frequency ($f_s$) was swept within a $\pm 1\%$ range around the resonant frequency using seven equally spaced points. This choice focuses the analysis on the region near resonance, where converter efficiency is most sensitive to frequency variations. In total, 4536 scenarios were simulated, generating approximately 10~GB of data.
 
-Each scenario was simulated for a duration of 10~ms, allowing the system to reach steady-state conditions. The relevant performance metrics were extracted from the last 1~ms of the simulation to reduce the influence of transient effects. The input and output power were computed by averaging the instantaneous power over the steady-state interval, and the efficiency was calculated as the ratio between the average output power and the average input power.
+Each scenario was simulated for 10~ms to ensure steady-state operation. The last 1~ms of data was used for analysis in order to minimize transient effects. Efficiency was computed from the average input and output power over this interval.
 
-Since the study focuses on parameter design, all time-domain signals were reduced to representative scalar features using either average or root mean square (RMS) values, depending on the nature of each signal. For instance, the inductor current ($i_{Lr}$), the resonant tank voltage ($V_{AB}$), the secondary voltage ($V_{Sec}$), the primary voltage ($V_{Pri}$), and the input current ($i_{In}$) were converted to RMS values, while the output voltage ($V_o$) and output power ($P_{out}$) were represented by their average values.
+To reduce data dimensionality, time-domain signals were summarized using representative scalar features. RMS values were used for currents and AC voltages, while average values were used for DC quantities such as output voltage and power. This representation preserves the steady-state energy behavior of the converter while enabling efficient model training.
 
-This feature extraction process resulted in a structured dataset containing 4536 samples (approximately 1.249~MB), where each sample includes the relevant features for training the machine learning model. A pre-processing step was performed to remove outliers and non-physical results, such as efficiencies outside the range $0 \leq \eta \leq 1$. The cleaned dataset was then organized into a structured format suitable for machine learning, with each row representing a unique operating condition and its corresponding efficiency.
+After feature extraction, the dataset contained 4536 samples (approximately 1.249~MB). A preprocessing step was applied to remove outliers and non-physical results, such as efficiencies outside the range $0 \leq \eta \leq 1$. The data was then split into training and testing sets, and all features were normalized to improve numerical stability.
 
-Machine learning models have been increasingly applied in power electronics for efficiency prediction and design optimization \cite{zhao2019}. In this context, different regression models were selected to represent distinct learning paradigms, including Multi-Layer Perceptron (MLP), Random Forest (RF), and K-Nearest Neighbors (KNN). These models estimate the converter efficiency as a function of the operating conditions. The input feature vector is defined as:
+Machine learning models have been increasingly applied in power electronics for efficiency prediction and design optimization \cite{zhao2019}. In this work, three regression models were evaluated: Multi-Layer Perceptron (MLP), Random Forest (RF), and K-Nearest Neighbors (KNN), representing different learning approaches. The models estimate converter efficiency as a function of the operating conditions, with input vector:
 
 \begin{align}
     \mathbf{x} = [V_{in}, V_o, P_{out}, f_s, f_r, Z_r, k, Q]
 \end{align}
 
-where $Z_r$ denotes the characteristic impedance of the resonant tank, defined as $Z_r = \sqrt{L_r/C_r}$, and $k$ represents the inductance ratio given by $k = L_m / L_r$.
+where $Z_r = \sqrt{L_r/C_r}$ and $k = L_m / L_r$.
 
 \subsection{Multilayer Perceptron (MLP)}
 
-\hl{Describe the dataset split (training/testing) and whether normalization or scaling was applied.}
-The Multilayer Perceptron (MLP) was evaluated as a nonlinear regression model to approximate the converter efficiency. The network consists of two hidden layers with 128 and 64 neurons, respectively, and employs the Rectified Linear Unit (ReLU) activation function to capture the nonlinear relationships between the operating conditions and the efficiency.
+The MLP was evaluated as a nonlinear regression baseline. The network consists of two hidden layers with 128 and 64 neurons and uses ReLU activation to capture nonlinear relationships.
 
-The MLP model approximates the efficiency as a composition of linear transformations and nonlinear activation functions, given by:
 \begin{align}
 \eta &= f_{\mathrm{MLP}}(\mathbf{x}) \nonumber \\
      &= W_3\,\sigma\!\left(W_2\,\sigma\!\left(W_1 \mathbf{x} + b_1\right) + b_2\right) + b_3
 \end{align}
 
-where $\mathbf{x}$ represents the input feature vector, $W_i$ and $b_i$ are the weight matrices and bias vectors of each layer, respectively, and $\sigma(\cdot)$ denotes the activation function.
-
-The model was trained using the Adam optimizer with an initial learning rate of 0.1. Early stopping was employed to prevent overfitting, with training terminated if no improvement was observed over 30 consecutive iterations, up to a maximum of 1500 epochs.
+The model was trained using the Adam optimizer with a learning rate of $10^{-3}$ and early stopping to prevent overfitting.
 
 \subsection{Random Forest (RF)}
 
-\hl{Explain why these hyperparameters were chosen. Cite any relevant works that have used similar hyperparameters for RF training.}
-A Random Forest (RF) regressor was employed to approximate the converter efficiency as a function of the operating conditions. The model consists of an ensemble of decision trees, where each tree is trained using a bootstrap sample of the dataset and a random subset of features.
+The Random Forest model was selected as the primary model due to its superior performance. It consists of an ensemble of decision trees trained on bootstrapped data with feature randomness, allowing it to capture nonlinear relationships effectively.
 
-The RF model predicts the efficiency as the average output of all decision trees in the ensemble:
 \begin{align}
     \eta &= f_{\mathrm{RF}}(\mathbf{x}) = \frac{1}{N} \sum_{i=1}^{N} T_i(\mathbf{x})
 \end{align}
 
-where $\mathbf{x}$ is the input feature vector, $T_i(\mathbf{x})$ represents the prediction of the $i$-th decision tree, and $N$ is the total number of trees in the forest.
-
-In this work, the model was configured with $N = 300$ trees, a maximum depth of 15, and a minimum of 5 samples required to split an internal node. These hyperparameters were selected to provide a balance between model complexity and generalization capability.
+The model was configured with $N = 300$ trees, a maximum depth of 15, and a minimum of 5 samples per split.
 
 \subsection{K Nearest Neighbors (KNN)}
 
-\hl{Explain why these hyperparameters were chosen. Cite any relevant works that have used similar hyperparameters for KNN training.}
-The K Nearest Neighbors (KNN) algorithm was also evaluated as a non-parametric regression model to estimate the converter efficiency. In this approach, the prediction for a given input is obtained based on the $k$ closest samples in the feature space.
+The KNN model was used as a non-parametric baseline. Predictions are obtained by averaging the outputs of the $k$ nearest neighbors in the feature space.
 
-The KNN model estimates the efficiency as the average value of the target variable among the $k$ nearest neighbors:
 \begin{align}
     \eta &= f_{\mathrm{KNN}}(\mathbf{x}) = \frac{1}{k} \sum_{i \in \mathcal{N}_k(\mathbf{x})} y_i
 \end{align}
 
-where $\mathbf{x}$ is the input feature vector, $\mathcal{N}_k(\mathbf{x})$ represents the set of the $k$ nearest neighbors of $\mathbf{x}$ in the training dataset, and $y_i$ is the efficiency associated with each neighbor.
-
-In this work, the model was configured with $k = 5$ neighbors. This choice provides a balance between noise reduction and local approximation capability.
+The model was configured with $k = 5$ neighbors.
 
 \subsection{Model Performance Evaluation}
 
-To evaluate the performance of the machine learning models, standard regression metrics were used, including the coefficient of determination ($R^2$) and the prediction error.
+Model performance was evaluated using $R^2$, RMSE, and prediction error. While $R^2$ measures goodness-of-fit, RMSE provides an absolute error measure and the prediction error (\%) indicates relative accuracy.
 
-The models were trained and tested using the processed dataset, and their performance was compared in terms of accuracy and generalization capability. Table~\ref{tab:model_comparison} summarizes the results obtained for each model.
+The results are summarized in Table~\ref{tab:model_comparison}.
 
 \begin{table}[!htb]
     \centering
     \caption{Performance comparison of machine learning models}
     \label{tab:model_comparison}
-    \begin{tabular}{lcc}
+    \begin{tabular}{lccc}
         \hline
-        Model & $R^2$ & Error (\%) \\
+        Model & $R^2$ & RMSE & Error (\%) \\
         \hline
-        MLP & 0.7988 & 13.00 \\
-        RF  & 0.9959 & 0.78 \\
-        KNN & 0.8227 & 10.08 \\
+        MLP & 0.7988 & 0.0872 & 13.01 \\
+        RF  & 0.9959 & 0.0125 & 0.78 \\
+        KNN & 0.8227 & 0.0819 & 10.08 \\
         \hline
     \end{tabular}
 \end{table}
 
-\hl{Explain why $R^2$ and error were chosen as the evaluation metrics. Cite any relevant works that have used similar metrics for regression model evaluation.}
-Among the evaluated approaches, the Random Forest model achieved the highest accuracy, with $R^2 = 0.9959$ and an average prediction error below 1\%. In contrast, the Multi-Layer Perceptron (MLP) and K-Nearest Neighbors (KNN) models presented lower performance, with $R^2$ values of 0.7988 and 0.8227, respectively, and significantly higher prediction errors.
+The Random Forest model achieved the best performance, significantly outperforming the other models.
 
-Additionally, point-wise validation was performed using randomly selected samples from the dataset. For instance, for a given operating condition, the real efficiency was 0.410625, while the Random Forest model predicted 0.410492, resulting in a relative error of only 0.032\%.
-
-These results indicate that the Random Forest model provides a highly accurate approximation of the nonlinear relationship between design parameters and converter efficiency, making it suitable for fast design space exploration.
-
-Based on these results, the Random Forest model was selected to approximate the efficiency of the converter as a nonlinear function of the operating conditions:
+Based on these results, the Random Forest model was used to represent converter efficiency:
 
 \begin{align}
 \eta &= f_{\mathrm{RF}}(V_{in}, V_o, P_{out}, f_s, f_r, Z_r, k, Q)
 \end{align}
 
-This model enables rapid evaluation of the design space without requiring time-consuming simulations.
+This model allows direct evaluation of the design space without requiring iterative time-domain simulations.
 
-To identify optimal operating points, the design problem is formulated as the maximization of the converter efficiency under physical operating constraints. These constraints include operation close to the resonant frequency and proper impedance matching, which are critical for high-efficiency LLC converter operation.
-
-Instead of explicitly enforcing these constraints, a penalty-based objective function is defined as:
+To identify optimal operating points, the problem is formulated as the maximization of efficiency under constraints related to resonant operation and impedance matching.
 
 \begin{align}
     J &= \eta - \alpha \frac{|f_r - f_s|}{f_s} - \beta \frac{|Z_r - R_{ac}|}{R_{ac}}
 \end{align}
-where $\alpha = 0.3$ and $\beta = 0.5$ are empirically selected weighting factors that balance efficiency maximization with physical feasibility. The penalty terms enforce operation close to the resonant frequency and proper impedance matching, which are known to be critical conditions for high-efficiency operation in LLC converters.
 
-The optimal operating point is obtained by solving:
+where $\alpha = 0.3$ and $\beta = 0.5$ balance efficiency and feasibility.
+
+The optimal point is obtained by solving:
 
 \begin{align}
     \max_{f_s,\,Z_r} \; J
 \end{align}
 
-This formulation enables the maximization of efficiency while implicitly enforcing near-resonant operation and impedance matching conditions, significantly reducing computational effort compared to traditional simulation-based design approaches. \hl{Cite any relevant works that have used similar approaches to multi-objective optimization.}
+This formulation enables efficient exploration of the design space while maintaining physically meaningful operation.
 
 \begin{figure}[htb]
     \centering
-    \includegraphics[width=0.8\columnwidth]{figures/RF_Evaluation.png}
+    \includegraphics[width=\columnwidth]{figures/RF_Evaluation.png}
     \caption{Predicted versus actual efficiency using the Random Forest model.}
     \label{fig:RF_Evaluation}
 \end{figure}
 
-Fig.~\ref{fig:RF_Evaluation} shows the comparison between predicted and actual efficiency, highlighting the high accuracy of the Random Forest approach. The points are closely aligned along the diagonal, indicating that the model effectively captures the underlying relationships in the data, supporting its use as a surrogate model for this application.
+Fig.~\ref{fig:RF_Evaluation} shows strong agreement between predicted and actual efficiency, with the data points closely aligned along the ideal $y = x$ line, confirming the high accuracy and consistency of the model across the operating range.

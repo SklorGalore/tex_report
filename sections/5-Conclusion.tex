@@ -1,9 +1,11 @@
 \section{Conclusion}\label{sec:Conclusion}
 
-This work presented a data-driven methodology for the design and efficiency evaluation of LLC resonant converters. A comprehensive dataset was generated through time-domain simulations covering a wide range of operating conditions, and relevant features were extracted to train machine learning models.
+This work presented a data-driven methodology for the design and efficiency evaluation of LLC resonant converters. A comprehensive dataset was generated through time-domain simulations over a wide range of operating conditions, and relevant features were extracted to train machine learning models.
 
-Among the evaluated approaches, the Random Forest model demonstrated high accuracy in predicting converter efficiency, enabling fast and reliable exploration of the design space without the need for exhaustive simulations. The proposed framework combines physical insight with data-driven modeling, allowing efficient identification of operating regions with high performance.
+Among the evaluated approaches, the Random Forest model provided the best performance, achieving $R^2 = 0.9959$, RMSE = 0.0125, and an average prediction error of 0.78\%. These results show that the model can accurately capture the relationship between operating conditions and converter efficiency, enabling fast exploration of the design space without relying on iterative time-domain simulations.
 
-Simulation results confirmed stable operation near the resonant frequency, reduced switching losses, and high efficiency levels, validating both the converter design and the effectiveness of the proposed approach.
+The proposed framework combines data-driven modeling with physical design considerations, allowing the identification of high-efficiency operating points while maintaining near-resonant operation and proper impedance matching.
 
-Overall, the method provides a practical and computationally efficient tool for the design and optimization of LLC converters, with potential applicability to other resonant power converter topologies.
+Simulation results confirmed stable operation, reduced switching losses, and high efficiency levels, supporting both the validity of the design and the accuracy of the proposed approach.
+
+Overall, the methodology provides an efficient way to explore the design space of LLC converters and can be extended to other resonant converter topologies within the range of operating conditions used for training.
