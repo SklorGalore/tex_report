@@ -109,14 +109,20 @@ Based on these results, the Random Forest model was selected to approximate the 
 
 This model enables rapid evaluation of the design space without requiring time-consuming simulations.
 
-To identify optimal operating points, the efficiency prediction is combined with a constraint-based objective function:
+To identify optimal operating points, the design problem is formulated as the maximization of the converter efficiency subject to physical operating constraints. Instead of explicitly enforcing these constraints, a penalty-based objective function is defined as:
 
 \begin{align}
-J &= \eta - \alpha \frac{|f_r - f_s|}{f_s}
-     - \beta \frac{|Z_r - R_{ac}|}{R_{ac}}
+    J &= \eta - \alpha \frac{|f_r - f_s|}{f_s} - \beta \frac{|Z_r - R_{ac}|}{R_{ac}}
+\end{align}
+where $\alpha = 0.3$ and $\beta = 0.5$ are empirically selected weighting factors that balance efficiency maximization with physical feasibility. The penalty terms enforce operation close to the resonant frequency and proper impedance matching, which are known to be critical conditions for high-efficiency operation in LLC converters.
+
+The optimal operating point is obtained by solving:
+
+\begin{align}
+    \max_{f_s,\,Z_r} \; J
 \end{align}
 
-where $\alpha = 0.3$ and $\beta = 0.5$ are empirically selected weighting factors that define the trade-off between efficiency and physical feasibility. This formulation enables the identification of high-efficiency operating regions while enforcing near-resonant operation and proper impedance matching, significantly reducing computational effort compared to traditional simulation-based design approaches. \hl{Cite any relevant works that have used similar approaches to multi-objective optimization.}
+This formulation enables the identification of high-efficiency operating regions while implicitly satisfying physical constraints, significantly reducing computational effort compared to traditional simulation-based design approaches. \hl{Cite any relevant works that have used similar approaches to multi-objective optimization.}
 
 \begin{figure}[htb]
     \centering
