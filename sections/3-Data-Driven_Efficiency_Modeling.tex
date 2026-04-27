@@ -109,7 +109,9 @@ Based on these results, the Random Forest model was selected to approximate the 
 
 This model enables rapid evaluation of the design space without requiring time-consuming simulations.
 
-To identify optimal operating points, the design problem is formulated as the maximization of the converter efficiency subject to physical operating constraints. Instead of explicitly enforcing these constraints, a penalty-based objective function is defined as:
+To identify optimal operating points, the design problem is formulated as the maximization of the converter efficiency under physical operating constraints. These constraints include operation close to the resonant frequency and proper impedance matching, which are critical for high-efficiency LLC converter operation.
+
+Instead of explicitly enforcing these constraints, a penalty-based objective function is defined as:
 
 \begin{align}
     J &= \eta - \alpha \frac{|f_r - f_s|}{f_s} - \beta \frac{|Z_r - R_{ac}|}{R_{ac}}
@@ -122,7 +124,7 @@ The optimal operating point is obtained by solving:
     \max_{f_s,\,Z_r} \; J
 \end{align}
 
-This formulation enables the identification of high-efficiency operating regions while implicitly satisfying physical constraints, significantly reducing computational effort compared to traditional simulation-based design approaches. \hl{Cite any relevant works that have used similar approaches to multi-objective optimization.}
+This formulation enables the maximization of efficiency while implicitly enforcing near-resonant operation and impedance matching conditions, significantly reducing computational effort compared to traditional simulation-based design approaches. \hl{Cite any relevant works that have used similar approaches to multi-objective optimization.}
 
 \begin{figure}[htb]
     \centering
