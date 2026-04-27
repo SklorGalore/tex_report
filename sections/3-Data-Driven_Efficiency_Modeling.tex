@@ -10,7 +10,7 @@ Fig.~\ref{fig:workflow} illustrates the proposed data-driven workflow, including
     \label{fig:workflow}
 \end{figure*}
 
-The dataset was generated through large-scale time-domain simulations using a detailed LLC converter model implemented in MATLAB/Simulink. The main operating parameters were systematically varied within predefined ranges, including input voltage ($V_{in} \in \{400, 500, 600, 700, 800, 900\}\,\text{V}$), output voltage ($V_o \in \{400, 600, 800\}\,\text{V}$), output power ($P_{out} \in \{8, 10, 12\}\,\text{kW}$), resonant frequency ($f_r \in \{120, 130, 140\}\,\text{kHz}$), and quality factor ($Q \in \{0.3, 0.4, 0.5, 0.6\}$). \hl{Cite any relevant works that have used similar MATLAB/Simulink-based approaches to create datasets.}
+The dataset was generated through large-scale time-domain simulations using a detailed LLC converter model implemented in MATLAB/Simulink. The main operating parameters were systematically varied within predefined ranges, including input voltage ($V_{in} \in \{400, 500, 600, 700, 800, 900\}\,\text{V}$), output voltage ($V_o \in \{400, 600, 800\}\,\text{V}$), output power ($P_{out} \in \{8, 10, 12\}\,\text{kW}$), resonant frequency ($f_r \in \{120, 130, 140\}\,\text{kHz}$), and quality factor ($Q \in \{0.3, 0.4, 0.5, 0.6\}$). A similar data-driven strategy based on simulation-generated datasets was adopted in \cite{AvilaSaccol2024}, where large-scale simulations in MATLAB/Simulink and PSIM were used to train deep neural network surrogate models for predicting the efficiency of DC/AC power converters under varying operating conditions.
 
 For each operating condition, the switching frequency ($f_s$) was swept within a $\pm 1\%$ range around the resonant frequency using seven equally spaced points (three below, one at resonance, and three above), ensuring that the analysis captures the region close to resonance, which is critical for high-efficiency operation. A total of 4536 scenarios were simulated, generating approximately 10~GB of data and resulting in a comprehensive dataset that captures the complex relationships between design parameters and converter efficiency. \hl{Cite any relevant works that have used similar MATLAB/Simulink-based approaches to create datasets.}
 
@@ -20,7 +20,7 @@ Since the study focuses on parameter design, all time-domain signals were reduce
 
 This feature extraction process resulted in a structured dataset containing 4536 samples (approximately 1.249~MB), where each sample includes the relevant features for training the machine learning model. At the end, a pre-processing step was performed to clean the dataset by removing the outliers and any non-physical results, such as efficiencies outside the range $0 \leq \eta \leq 1$. The cleaned dataset was then organized into a structured format suitable for machine learning, with each row representing a unique operating condition and its corresponding efficiency.
 
-
+\cite{11081936}
 \hl{Cite any relevant works that have used MLP, RF, and KNN for efficiency modeling.}
 Subsequently, 3 different machine learning models were evaluated, including Multi-Layer Perceptron (MLP), Random Forest (RF), and K-Nearest Neighbors (KNN). The machine learning models used in this work estimate the converter efficiency as a function of the operating conditions. The input feature vector is defined as:
 \begin{align}

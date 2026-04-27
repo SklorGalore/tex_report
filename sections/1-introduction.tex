@@ -1,22 +1,24 @@
 \section{Introduction} \label{sec:introduction}
 
-Recent growth and adoption of data centers, electric vehicles (EVs), and renewable energy systems (REs) has increased the demand for highly efficient, power-dense, power electronic converters. Among the various converter topologies, soft-switching resonant converters have emerged as a common solution due to their ability to achieve both zero voltage (ZVS) and zero current (ZCS) switching, which significantly reduces switching losses and improves overall efficiency \cite{11203780, chakraborty2019dc}.
+Recent growth and adoption of data centers, electric vehicles (EVs), and renewable energy systems (REs) has increased the demand for highly efficient, power-dense power electronic converters. Among the various converter topologies, soft-switching resonant converters have emerged as a common solution due to their ability to achieve both zero voltage (ZVS) and zero current (ZCS) switching, which significantly reduces switching losses and improves overall efficiency \cite{RezaHasanzadehAghdam2026, Chakraborty2019}.
 
-Traditional design methodologies for soft-switching resonant converters remain complex and rely on approximating converter harmonics using first harmonic approximations (FHA) or complex time-domain analytical models \hl{Cite?}. These designs may provide quick starting points, but can suffer from inaccuracy under light loading conditions, non-linear loads, or when operation of the converter is not near the resonant frequency. While time-domain analytical models may address some of these inaccuracies, they are time-consuming and computationally expensive which makes them impractical for large-scale optimization of multiple parameters or iterative design approaches.
+Traditional design methodologies for soft-switching resonant converters remain complex and rely on approximating converter harmonics using first harmonic approximations (FHA) or complex time-domain analytical models \cite{Jung2013}. These approaches provide initial estimates but can suffer from inaccuracy under light loading conditions, non-linear loads, or when the converter does not operate near the resonant frequency. While time-domain analytical models may address some of these limitations, they are computationally expensive, making them impractical for large-scale optimization and iterative design procedures.
 
-\hl{ How much time traditional ways take? Cite?}
 
-In order to address these challenges, this paper proposes a data-driven efficiency mapping framework for rapid resonant converter design.
-By utilizing comprehensive datasets generated through automated simulations, a predictive model capable of mapping circuit design parameters such as resonant tank inductance and capacitance, switching frequency, and desired input and output voltages, directly to an expected converter efficiency was developed. Through this approach, the need for iterative high computational cost computations can be bypassed allowing for accelerated design time.
+Data-driven approaches have been increasingly adopted in power electronics design \cite{Bahrami2023}, where machine learning models are trained using simulation or experimental data to support control, optimization, and design tasks. In resonant converters, AI-based optimization techniques have also been applied, with metaheuristic algorithms such as genetic algorithms (GA) and particle swarm optimization (PSO) commonly used to minimize total power loss through repeated evaluation of circuit models \cite{zhao2019}. However, these methods still rely on iterative evaluation procedures, resulting in high computational cost when exploring large design spaces.
+
+In contrast, the proposed method employs a data-driven model to directly predict converter efficiency from design and operating parameters, avoiding iterative simulations during the design stage. As reported by \cite{GAO2023}, simulation-based analysis may require minutes to hours per design iteration, whereas AI-based modeling can perform similar analyses in seconds. Currently, there is a lack of approaches that directly map converter design parameters to efficiency using data-driven models without iterative simulation procedures.
+
+This paper proposes a data-driven efficiency mapping framework for resonant converter design. By utilizing datasets generated through automated simulations, a predictive model capable of mapping circuit design parameters directly to expected converter efficiency is developed.
 
 The main contributions of this work are summarized as follows:
 
 \begin{itemize}
-    \item A data-driven framework for rapid, efficiency-oriented design of LLC resonant converters, reducing the need for iterative analytical calculations and time-consuming simulations.
+    \item A data-driven framework for efficiency-oriented design of LLC resonant converters, reducing the need for iterative analytical calculations and time-consuming simulations.
     
-    \item The development of a Random Forest-based surrogate model capable of accurately predicting converter efficiency, achieving prediction errors below 1\%.
+    \item The development of a Random Forest-based model capable of predicting converter efficiency with errors below 1\%.
     
-    \item Validation of the proposed approach through detailed simulations, demonstrating strong agreement between predicted and actual converter performance.
+    \item Validation of the proposed approach through simulations, demonstrating agreement between predicted and actual converter performance.
 \end{itemize}
 
 The remainder of this paper is organized as follows: Section~\ref{sec:LLC} provides an overview of LLC resonant converter design and the challenges associated with traditional methodologies. Section~\ref{sec:DataDriven} describes the proposed data-driven efficiency modeling framework, including dataset generation and surrogate model development. Section~\ref{sec:results} presents the results and validation of the proposed approach, while Section~\ref{sec:Conclusion} concludes the paper and discusses future research directions.
