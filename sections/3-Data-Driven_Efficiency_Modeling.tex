@@ -107,7 +107,7 @@ Based on these results, the Random Forest model was selected to approximate the 
 \eta &= f_{\mathrm{RF}}(V_{in}, V_o, P_{out}, f_s, f_r, Z_r, k, Q)
 \end{align}
 
-This surrogate model enables rapid evaluation of the design space without requiring time-consuming simulations.
+This model enables rapid evaluation of the design space without requiring time-consuming simulations.
 
 To identify optimal operating points, the efficiency prediction is combined with a constraint-based objective function:
 
@@ -116,9 +116,7 @@ J &= \eta - \alpha \frac{|f_r - f_s|}{f_s}
      - \beta \frac{|Z_r - R_{ac}|}{R_{ac}}
 \end{align}
 
-where $\alpha$ and $\beta$ are weighting factors that balance efficiency and physical feasibility.
-
-This formulation allows the identification of high-efficiency operating regions while enforcing operation close to resonance and proper impedance matching. As a result, the proposed approach significantly reduces computational effort compared to traditional simulation-based design procedures.
+where $\alpha = 0.3$ and $\beta = 0.5$ are empirically selected weighting factors that define the trade-off between efficiency and physical feasibility. This formulation enables the identification of high-efficiency operating regions while enforcing near-resonant operation and proper impedance matching, significantly reducing computational effort compared to traditional simulation-based design approaches. \hl{Cite any relevant works that have used similar approaches to multi-objective optimization.}
 
 \begin{figure}[htb]
     \centering
