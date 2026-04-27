@@ -1,20 +1,25 @@
 \section{LLC Converter Design Background}\label{sec:LLC}
+
+\hl{Since the topology and operating principles of LLC converters are well-established, this section provides a brief overview of the design considerations relevant to the proposed data-driven approach.}
+
 For the purposes of this paper, a series resonant converter using a full-bridge inverter and full-bridge synchronous rectifier with an LLC tank was chosen due to its ability to achieve both zero current and zero voltage switching.
-The chosen circuit schematic can be seen in Figure \ref{fig:llcsr}.
+The chosen circuit schematic can be seen in Figure~\ref{fig:llcsrc}.
+
+\hl{Please provide all references for the design process described in this section.}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\columnwidth]{figures/LLCSRC}
+	\includegraphics[width=\columnwidth]{figures/LLCSRC-eps-converted-to.pdf}
 	\caption{The initial circuit schematic for the series resonant LLC converter.}
 	\label{fig:llcsrc}
 \end{figure}
 
 To generate initial training data for the machine learning model, a converter using this topology was designed using the traditional first harmonic approximation (FHA) method.
-Under these assumptions, the circuit simplifies to the layout in Figure. \ref{fig:llcfha-3}
+Under these assumptions, the circuit simplifies to the layout in Fig.~\ref{fig:llcfha-3}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=.75\columnwidth]{figures/LLC_FHA-3}
+	\includegraphics[width=.75\columnwidth]{figures/LLC_FHA-3-eps-converted-to.pdf}
 	\caption{The simplified converter topology under the first harmonic approximation}
 	\label{fig:llcfha-3}
 \end{figure}
@@ -35,7 +40,7 @@ With a known turns ratio, choose an applicable quality factor "Q" based on antic
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\columnwidth]{figures/gain_q_sweep}
+	\includegraphics[width=\columnwidth]{figures/gain_q_sweep-eps-converted-to.pdf}
 	\caption{Converter gain as a function of switching frequency and quality factor}
 	\label{fig:gain_q_sweep}
 \end{figure}
