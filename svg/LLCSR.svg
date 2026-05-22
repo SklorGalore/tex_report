@@ -26,12 +26,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="2.8284271"
-     inkscape:cx="50.558135"
-     inkscape:cy="44.017397"
+     inkscape:cx="186.67619"
+     inkscape:cy="17.500893"
      inkscape:window-width="1920"
-     inkscape:window-height="1137"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="101"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg171" />
   <defs
@@ -398,9 +398,116 @@
        d="m 43,1 q -17,0 -17,9 0,2 3,14 5,19 10,21 3,1 15,1 h 6 q 60,0 76,7 1,0 2,1 5,2 11,23 6,21 49,196 12,45 18,71 70,280 70,282 -2,4 -2,5 -10,6 -71,6 h -20 q -9,6 -4,25 4,15 6,18 2,3 14,3 h 4 q 72,-2 146,-2 122,0 128,2 h 10 q 7,-7 7,-11 0,-4 -3,-17 -3,-13 -7,-16 -3,-2 -23,-2 -31,0 -64,-3 -14,-3 -19,-11 -7,-14 -51,-191 -11,-47 -22,-91 -70,-276 -70,-282 0,-7 10,-9 10,-2 52,-4 h 32 q 6,-8 6,-9 0,-1 -3,-18 Q 338,6 332,0 H 316 Q 279,2 179,2 143,2 113,2 83,2 65,2 47,2 43,1 Z" />
   </defs>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="M 678.78943,-108.22662 H 943.39512"
+     id="path67" />
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="M 677.89881,-335.28912 H 943.85193"
+     id="path66"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 943.41443,-335.35162 v 99.00199"
+     id="path70" />
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 943.41443,-108.16412 v -79.25"
+     id="path71" />
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 867.91147,-334.77005 v 107.48093"
+     id="path68" />
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 867.85193,-109.03912 v -106.8928"
+     id="path69" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2"
+     d="m 484.57121,-224.44551 v -31.68722"
+     id="path42" />
+  <path
+     style="font-size:13.3333px;overflow:visible;fill:#ff0000;stroke:#ff0000;stroke-width:2"
+     d="m 495.04042,-224.44551 v -31.68722"
+     id="path42-4" />
+  <g
+     id="g73"
+     transform="rotate(90,886.9102,-212.91867)">
+    <path
+       style="font-size:13.3333px;overflow:visible;fill:#ff0000;stroke:#ff0000;stroke-width:2"
+       d="m 873.10193,-178.6019 v -31.68722"
+       id="path42-1" />
+    <path
+       style="font-size:13.3333px;overflow:visible;fill:#ff0000;stroke:#ff0000;stroke-width:2"
+       d="m 883.57114,-178.6019 v -31.68722"
+       id="path42-4-6" />
+  </g>
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="M 263.1239,-172.19089 V -288.00775"
+     id="path34" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2"
+     d="m 483.72693,-240.00787 h -47.5"
+     id="path41" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
      d="m 187.45387,-237.37311 v -97.5478"
      id="path23" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="m 187.44901,-205.55557 v 97.28507"
+     id="path26" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="M 187.44901,-108.19076 H 338.48009"
+     id="path27" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="m 263.01112,-136.89324 v 28.75686"
+     id="path28" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="m 338.68114,-137.56988 v 29.65904"
+     id="path29" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="M 186.41237,-335.05635 H 338.82211"
+     id="path33" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="m 263.01112,-323.92564 v -10.8825"
+     id="path35" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="m 338.79392,-323.02346 v -13.02885"
+     id="path36"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="m 338.72,-288.35162 v 116.1875"
+     id="path37" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="m 339.57012,-202.4085 h 36.76955"
+     id="path39" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2"
+     d="m 376.60193,-203.40853 v 43.36941"
+     id="path24"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2"
+     d="m 375.72693,-161.03912 h 175.75"
+     id="path25" />
+  <path
+     style="fill:#ff0000;stroke:#ff0000;stroke-width:2"
+     d="m 551.60193,-240.41412 h -56"
+     id="path40" />
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:2;stroke-dasharray:none"
+     d="M 263.55614,-240.06194 H 392.0728"
+     id="path38" />
   <ellipse
      style="fill:none;stroke-width:2;stroke:#000000;stroke-dasharray:none"
      id="path22"
@@ -426,199 +533,6 @@
      stroke-width="0.5"
      stroke="#000000"
      id="line29" />
-  <use
-     xlink:href="#node_nmos_bodydiode"
-     fill="none"
-     stroke="#000000"
-     transform="translate(225.52795,-335.4388)"
-     class=""
-     style="color:#000000"
-     id="use35" />
-  <g
-     class="pointerNone"
-     transform="translate(284.68624,-302.37204)"
-     fill="#000000"
-     id="g40">
-    <g
-       transform="scale(0.01345893,0.01346291)"
-       id="g39">
-      <g
-         stroke="currentColor"
-         fill="inherit"
-         stroke-width="0"
-         transform="scale(1,-1)"
-         id="g38">
-        <g
-           id="g37">
-          <g
-             transform="matrix(0.707,0,0,0.707,824,-150)"
-             id="g36">
-            <use
-               xlink:href="#MJX-265-TEX-N-31"
-               id="use36" />
-          </g>
-          <use
-             xlink:href="#MJX-265-TEX-I-1D444"
-             id="use37" />
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     class=""
-     id="g47"
-     transform="translate(-1.4686563,-32.545079)">
-    <use
-       xlink:href="#node_nmos_bodydiode"
-       fill="none"
-       stroke="#000000"
-       transform="translate(226.99661,-151.71272)"
-       class=""
-       style="color:#000000"
-       id="use41" />
-    <g
-       class="pointerNone"
-       transform="translate(286.1549,-118.64596)"
-       fill="#000000"
-       id="g46">
-      <g
-         transform="scale(0.01345893,0.01346291)"
-         id="g45">
-        <g
-           stroke="currentColor"
-           fill="inherit"
-           stroke-width="0"
-           transform="scale(1,-1)"
-           id="g44">
-          <g
-             id="g43">
-            <g
-               transform="matrix(0.707,0,0,0.707,824,-150)"
-               id="g42">
-              <use
-                 xlink:href="#MJX-266-TEX-N-32"
-                 id="use42" />
-            </g>
-            <use
-               xlink:href="#MJX-266-TEX-I-1D444"
-               id="use43" />
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     class=""
-     id="g53"
-     transform="translate(-1.4686563,-32.545079)">
-    <use
-       xlink:href="#node_nmos_bodydiode"
-       fill="none"
-       stroke="#000000"
-       transform="translate(302.58661,-151.71272)"
-       class=""
-       style="color:#000000"
-       id="use47" />
-    <g
-       class="pointerNone"
-       transform="translate(361.7449,-118.64596)"
-       fill="#000000"
-       id="g52">
-      <g
-         transform="scale(0.01345893,0.01346291)"
-         id="g51">
-        <g
-           stroke="currentColor"
-           fill="inherit"
-           stroke-width="0"
-           transform="scale(1,-1)"
-           id="g50">
-          <g
-             id="g49">
-            <g
-               transform="matrix(0.707,0,0,0.707,824,-150)"
-               id="g48">
-              <use
-                 xlink:href="#MJX-267-TEX-N-34"
-                 id="use48" />
-            </g>
-            <use
-               xlink:href="#MJX-267-TEX-I-1D444"
-               id="use49" />
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     class=""
-     id="g59"
-     transform="translate(-1.4686563,-32.545079)">
-    <use
-       xlink:href="#node_nmos_bodydiode"
-       fill="none"
-       stroke="#000000"
-       transform="translate(302.58661,-302.89372)"
-       class=""
-       style="color:#000000"
-       id="use53" />
-    <g
-       class="pointerNone"
-       transform="translate(361.7449,-269.82696)"
-       fill="#000000"
-       id="g58">
-      <g
-         transform="scale(0.01345893,0.01346291)"
-         id="g57">
-        <g
-           stroke="currentColor"
-           fill="inherit"
-           stroke-width="0"
-           transform="scale(1,-1)"
-           id="g56">
-          <g
-             id="g55">
-            <g
-               transform="matrix(0.707,0,0,0.707,824,-150)"
-               id="g54">
-              <use
-                 xlink:href="#MJX-268-TEX-N-33"
-                 id="use54" />
-            </g>
-            <use
-               xlink:href="#MJX-268-TEX-I-1D444"
-               id="use55" />
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     class=""
-     id="g60"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="264.567,-244.157 264.567,-151.181"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline59" />
-  </g>
-  <g
-     class=""
-     id="g61"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="340.157,-244.157 340.157,-151.181"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline60" />
-  </g>
   <g
      class=""
      id="g63"
@@ -645,82 +559,6 @@
   </g>
   <g
      class=""
-     id="g65"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="264.567,-207.874 377.953,-207.874"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline64" />
-  </g>
-  <g
-     class=""
-     id="g66"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="340.157,-170.079 377.953,-170.079"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline65" />
-  </g>
-  <use
-     xlink:href="#path_american-inductor"
-     fill="none"
-     stroke="#000000"
-     transform="translate(392.05134,-248.67457)"
-     style="color:#000000"
-     id="use66" />
-  <line
-     x1="376.48434"
-     y1="-240.41907"
-     x2="393.11404"
-     y2="-240.41907"
-     fill="none"
-     stroke-width="0.5"
-     stroke="#000000"
-     id="line66" />
-  <line
-     x1="452.07434"
-     y1="-240.41907"
-     x2="435.44467"
-     y2="-240.41907"
-     fill="none"
-     stroke-width="0.5"
-     stroke="#000000"
-     id="line67" />
-  <use
-     xlink:href="#path_capacitor"
-     fill="none"
-     stroke="#000000"
-     transform="translate(484.04725,-256.82452)"
-     style="color:#000000"
-     id="use72" />
-  <line
-     x1="452.07434"
-     y1="-240.41907"
-     x2="484.57861"
-     y2="-240.41907"
-     fill="none"
-     stroke-width="0.5"
-     stroke="#000000"
-     id="line72" />
-  <line
-     x1="527.66534"
-     y1="-240.41907"
-     x2="495.16104"
-     y2="-240.41907"
-     fill="none"
-     stroke-width="0.5"
-     stroke="#000000"
-     id="line73" />
-  <g
-     class=""
      id="g79"
      transform="translate(-1.4686563,-32.545079)">
     <use
@@ -743,51 +581,46 @@
        style="color:#000000"
        id="use79" />
   </g>
+  <use
+     xlink:href="#node_transformer-core_cute"
+     fill="none"
+     stroke="#000000"
+     transform="translate(527.3998,-240.68462)"
+     style="color:#000000"
+     id="use80" />
   <g
-     class=""
-     id="g87"
-     transform="translate(-1.4686563,-32.545079)">
-    <use
-       xlink:href="#node_transformer-core_cute"
-       fill="none"
-       stroke="#000000"
-       transform="translate(528.86846,-208.13954)"
-       style="color:#000000"
-       id="use80" />
+     class="pointerNone"
+     transform="translate(554.68548,-245.10246)"
+     fill="#000000"
+     id="g86">
     <g
-       class="pointerNone"
-       transform="translate(556.15414,-212.55738)"
-       fill="#000000"
-       id="g86">
+       transform="scale(0.0134618,0.01346362)"
+       id="g85">
       <g
-         transform="scale(0.0134618,0.01346362)"
-         id="g85">
+         stroke="currentColor"
+         fill="inherit"
+         stroke-width="0"
+         transform="scale(1,-1)"
+         id="g84">
         <g
-           stroke="currentColor"
-           fill="inherit"
-           stroke-width="0"
-           transform="scale(1,-1)"
-           id="g84">
+           id="g83">
           <g
-             id="g83">
-            <g
-               transform="translate(877.8)"
-               id="g81">
-              <use
-                 xlink:href="#MJX-271-TEX-N-3A"
-                 id="use81" />
-            </g>
-            <g
-               transform="translate(1433.6)"
-               id="g82">
-              <use
-                 xlink:href="#MJX-271-TEX-N-31"
-                 id="use82" />
-            </g>
+             transform="translate(877.8)"
+             id="g81">
             <use
-               xlink:href="#MJX-271-TEX-I-1D45B"
-               id="use83" />
+               xlink:href="#MJX-271-TEX-N-3A"
+               id="use81" />
           </g>
+          <g
+             transform="translate(1433.6)"
+             id="g82">
+            <use
+               xlink:href="#MJX-271-TEX-N-31"
+               id="use82" />
+          </g>
+          <use
+             xlink:href="#MJX-271-TEX-I-1D45B"
+             id="use83" />
         </g>
       </g>
     </g>
@@ -817,191 +650,6 @@
      stroke-width="0.5"
      stroke="#000000"
      id="line88" />
-  <g
-     class=""
-     id="g99"
-     transform="translate(-1.4686563,-32.545079)">
-    <use
-       xlink:href="#node_nmos_bodydiode"
-       fill="none"
-       stroke="#000000"
-       transform="translate(642.74461,-303.64972)"
-       class=""
-       style="color:#000000"
-       id="use93" />
-    <g
-       class="pointerNone"
-       transform="translate(701.9029,-270.58296)"
-       fill="#000000"
-       id="g98">
-      <g
-         transform="scale(0.01345893,0.01346291)"
-         id="g97">
-        <g
-           stroke="currentColor"
-           fill="inherit"
-           stroke-width="0"
-           transform="scale(1,-1)"
-           id="g96">
-          <g
-             id="g95">
-            <g
-               transform="matrix(0.707,0,0,0.707,824,-150)"
-               id="g94">
-              <use
-                 xlink:href="#MJX-273-TEX-N-35"
-                 id="use94" />
-            </g>
-            <use
-               xlink:href="#MJX-273-TEX-I-1D444"
-               id="use95" />
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     class=""
-     id="g105"
-     transform="translate(-1.4686563,-32.545079)">
-    <use
-       xlink:href="#node_nmos_bodydiode"
-       fill="none"
-       stroke="#000000"
-       transform="translate(642.74461,-151.71272)"
-       class=""
-       style="color:#000000"
-       id="use99" />
-    <g
-       class="pointerNone"
-       transform="translate(701.9029,-118.64596)"
-       fill="#000000"
-       id="g104">
-      <g
-         transform="scale(0.01345893,0.01346291)"
-         id="g103">
-        <g
-           stroke="currentColor"
-           fill="inherit"
-           stroke-width="0"
-           transform="scale(1,-1)"
-           id="g102">
-          <g
-             id="g101">
-            <g
-               transform="matrix(0.707,0,0,0.707,824,-150)"
-               id="g100">
-              <use
-                 xlink:href="#MJX-274-TEX-N-36"
-                 id="use100" />
-            </g>
-            <use
-               xlink:href="#MJX-274-TEX-I-1D444"
-               id="use101" />
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     class=""
-     id="g106"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="680.315,-302.362 793.701,-302.362"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline105" />
-  </g>
-  <g
-     class=""
-     id="g112"
-     transform="translate(-1.4686563,-32.545079)">
-    <use
-       xlink:href="#node_nmos_bodydiode"
-       fill="none"
-       stroke="#000000"
-       transform="translate(737.23276,-302.89356)"
-       class=""
-       style="color:#000000"
-       id="use106" />
-    <g
-       class="pointerNone"
-       transform="translate(796.39105,-269.8268)"
-       fill="#000000"
-       id="g111">
-      <g
-         transform="scale(0.01345893,0.01346291)"
-         id="g110">
-        <g
-           stroke="currentColor"
-           fill="inherit"
-           stroke-width="0"
-           transform="scale(1,-1)"
-           id="g109">
-          <g
-             id="g108">
-            <g
-               transform="matrix(0.707,0,0,0.707,824,-150)"
-               id="g107">
-              <use
-                 xlink:href="#MJX-275-TEX-N-37"
-                 id="use107" />
-            </g>
-            <use
-               xlink:href="#MJX-275-TEX-I-1D444"
-               id="use108" />
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
-  <g
-     class=""
-     id="g118"
-     transform="translate(-1.4686563,-32.545079)">
-    <use
-       xlink:href="#node_nmos_bodydiode"
-       fill="none"
-       stroke="#000000"
-       transform="translate(737.23261,-151.71272)"
-       class=""
-       style="color:#000000"
-       id="use112" />
-    <g
-       class="pointerNone"
-       transform="translate(796.3909,-118.64596)"
-       fill="#000000"
-       id="g117">
-      <g
-         transform="scale(0.01345893,0.01346291)"
-         id="g116">
-        <g
-           stroke="currentColor"
-           fill="inherit"
-           stroke-width="0"
-           transform="scale(1,-1)"
-           id="g115">
-          <g
-             id="g114">
-            <g
-               transform="matrix(0.707,0,0,0.707,824,-150)"
-               id="g113">
-              <use
-                 xlink:href="#MJX-276-TEX-N-38"
-                 id="use113" />
-            </g>
-            <use
-               xlink:href="#MJX-276-TEX-I-1D444"
-               id="use114" />
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
   <g
      class=""
      id="g119"
@@ -1053,31 +701,6 @@
        style="color:#000000"
        id="use121" />
   </g>
-  <use
-     xlink:href="#path_capacitor"
-     fill="none"
-     stroke="#000000"
-     transform="rotate(90,555.78648,328.44231)"
-     style="color:#000000"
-     id="use122" />
-  <line
-     x1="867.82336"
-     y1="-259.31708"
-     x2="867.82336"
-     y2="-226.81279"
-     fill="none"
-     stroke-width="0.5"
-     stroke="#000000"
-     id="line122" />
-  <line
-     x1="867.82336"
-     y1="-183.72607"
-     x2="867.82336"
-     y2="-216.23036"
-     fill="none"
-     stroke-width="0.5"
-     stroke="#000000"
-     id="line123" />
   <g
      transform="matrix(0.00951691,0,0,-0.00951828,898.15997,-215.87088)"
      data-mjx-texclass="ORD"
@@ -1136,84 +759,6 @@
      id="line141" />
   <g
      class=""
-     id="g149"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="869.292,-226.772 869.292,-302.362"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline148" />
-  </g>
-  <g
-     class=""
-     id="g150"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="944.882,-151.181 944.882,-75.591 869.292,-75.591"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline149" />
-  </g>
-  <polyline
-     points="793.701,-302.362 944.882,-302.362 944.882,-283.465"
-     fill="none"
-     stroke-dasharray="0.4pt, 0pt"
-     stroke-opacity="1"
-     stroke-width="0.533333"
-     stroke="#000000"
-     id="polyline161"
-     transform="translate(-1.4686563,-32.545079)" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:0.513;stroke-dasharray:none"
-     d="m 943.41847,-238.79312 v -78.09462"
-     id="path171" />
-  <g
-     class=""
-     id="g163"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="869.291,-151.181 869.291,-75.591 793.701,-75.591"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline162" />
-  </g>
-  <g
-     class=""
-     id="g164"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="680.315,-92.97662 680.315,-75.59055118110236 680.3149606299212,-75.59055118110236 793.7007874015748,-75.59055118110236"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline163" />
-  </g>
-  <g
-     class=""
-     id="g165"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="774.803,-92.97662 774.8031496062991,-92.97662 774.8031496062991,-75.59055118110236"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline164" />
-  </g>
-  <g
-     class=""
      id="g166"
      transform="translate(-1.4686563,-32.545079)">
     <use
@@ -1240,7 +785,7 @@
   <g
      class=""
      id="g168"
-     transform="translate(-1.4686563,-32.545079)">
+     transform="translate(-1.2476854,-32.545079)">
     <use
        xlink:href="#node_circ"
        fill="none"
@@ -1274,19 +819,6 @@
        style="color:#000000"
        id="use169" />
   </g>
-  <g
-     class=""
-     id="g171"
-     transform="translate(-1.4686563,-32.545079)">
-    <polyline
-       points="529.1341499999999,-128.50414999999998 377.95275590551176,-128.50414999999998 377.95275590551176,-170.0787401574803"
-       fill="none"
-       stroke-dasharray="0.4pt, 0pt"
-       stroke-opacity="1"
-       stroke-width="0.533333"
-       stroke="#000000"
-       id="polyline170" />
-  </g>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:0.513;stroke-dasharray:none"
@@ -1305,14 +837,14 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:0.513;stroke-dasharray:none"
-     x="419.17914"
-     y="-255.58528"
+     x="415.90878"
+     y="-254.78978"
      id="text171-45-1"><tspan
        sodipodi:role="line"
        id="tspan171-5-5"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:none;stroke-width:0.513"
-       x="419.17914"
-       y="-255.58528"><tspan
+       x="415.90878"
+       y="-254.78978"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
          id="tspan174">L</tspan><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;baseline-shift:sub;stroke-width:0.513"
@@ -1355,22 +887,6 @@
      style="fill:#000000;stroke-width:0.513"
      d="M 186.89001,-334.80814 H 338.68115"
      id="path2" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="m 187.44901,-205.55557 v 97.28507"
-     id="path26" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="M 187.44901,-108.19076 H 338.48009"
-     id="path27" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="m 263.01112,-136.89324 v 28.75686"
-     id="path28" />
-  <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="m 338.68114,-137.56988 v 29.65904"
-     id="path29" />
   <g
      id="g32">
     <path
@@ -1386,33 +902,751 @@
      style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
      d="m 183.45046,-214.70594 h 8.23236"
      id="path32" />
+  <g
+     id="g60">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.35193,-172.22662 h 10.9375"
+       id="path46" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.46426,-169.26287 v 29.19025"
+       id="path43"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.85193,-164.78912 h 18.1875"
+       id="path44" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 245.28943,-144.41412 h 17.875"
+       id="path47" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-125.22662 v -20.1875"
+       id="path48"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.72693,-137.03912 h 10.4375"
+       id="path49" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.16443,-173.22662 v 15.375"
+       id="path50" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 268.83631,-157.71099 h 10.65624"
+       id="path51"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 277.77931,-151.13287 -3.6875,-6.65625 -3.56765,6.66537 z"
+       id="path52"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.22693,-150.22662 v 14.20646"
+       id="path53"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 240.3542,-169.26555 v 29.19293"
+       id="path54"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="M 239.69129,-154.59041 H 225.54915"
+       id="path55" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56"
+       cx="263.32068"
+       cy="-137.03912"
+       rx="1.5"
+       ry="1.484375" />
+    <ellipse
+       style="font-size:13.3333px;overflow:visible;fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-2"
+       cx="263.00818"
+       cy="-172.22662"
+       rx="1.5"
+       ry="1.484375" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-183.85162 v 20.0625"
+       id="path45"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     id="g60-1"
+     style="font-size:13.3333px;overflow:visible"
+     transform="translate(75.67778)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.35193,-172.22662 h 10.9375"
+       id="path46-5" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.46426,-169.26287 v 29.19025"
+       id="path43-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.85193,-164.78912 h 18.1875"
+       id="path44-7" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 245.28943,-144.41412 h 17.875"
+       id="path47-6" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-125.22662 v -20.1875"
+       id="path48-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.72693,-137.03912 h 10.4375"
+       id="path49-4" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.16443,-173.22662 v 15.375"
+       id="path50-2" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 268.83631,-157.71099 h 10.65624"
+       id="path51-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 277.77931,-151.13287 -3.6875,-6.65625 -3.56765,6.66537 z"
+       id="path52-2"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.22693,-150.22662 v 14.20646"
+       id="path53-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 240.3542,-169.26555 v 29.19293"
+       id="path54-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="M 239.69129,-154.59041 H 225.54915"
+       id="path55-6" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-8"
+       cx="263.32068"
+       cy="-137.03912"
+       rx="1.5"
+       ry="1.484375" />
+    <ellipse
+       style="font-size:13.3333px;overflow:visible;fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-2-5"
+       cx="263.00818"
+       cy="-172.22662"
+       rx="1.5"
+       ry="1.484375" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-183.85162 v 20.0625"
+       id="path45-7"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:none;stroke:#000000;stroke-width:2"
+     x="291.9126"
+     y="-127.07681"
+     id="text60"><tspan
+       sodipodi:role="line"
+       id="tspan60"
+       x="291.9126"
+       y="-127.07681"
+       style="fill:#000000;stroke:none">Q2</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:2"
+     x="366.6026"
+     y="-129.19814"
+     id="text60-5"><tspan
+       sodipodi:role="line"
+       id="tspan60-1"
+       x="366.6026"
+       y="-129.19814"
+       style="fill:#000000;stroke:none">Q4</tspan></text>
+  <g
+     id="g60-8"
+     style="font-size:13.3333px;overflow:visible"
+     transform="translate(0.05278005,-147.8125)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.35193,-172.22662 h 10.9375"
+       id="path46-9" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.46426,-169.26287 v 29.19025"
+       id="path43-27"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.85193,-164.78912 h 18.1875"
+       id="path44-9" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 245.28943,-144.41412 h 17.875"
+       id="path47-5" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-125.22662 v -20.1875"
+       id="path48-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.72693,-137.03912 h 10.4375"
+       id="path49-3" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.16443,-173.22662 v 15.375"
+       id="path50-1" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 268.83631,-157.71099 h 10.65624"
+       id="path51-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 277.77931,-151.13287 -3.6875,-6.65625 -3.56765,6.66537 z"
+       id="path52-3"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.22693,-150.22662 v 14.20646"
+       id="path53-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 240.3542,-169.26555 v 29.19293"
+       id="path54-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="M 239.69129,-154.59041 H 225.54915"
+       id="path55-1" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-1"
+       cx="263.32068"
+       cy="-137.03912"
+       rx="1.5"
+       ry="1.484375" />
+    <ellipse
+       style="font-size:13.3333px;overflow:visible;fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-2-3"
+       cx="263.00818"
+       cy="-172.22662"
+       rx="1.5"
+       ry="1.484375" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-183.85162 v 20.0625"
+       id="path45-8"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <g
+     id="g60-8-2"
+     style="font-size:13.3333px;overflow:visible"
+     transform="translate(75.67778,-148.1875)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.35193,-172.22662 h 10.9375"
+       id="path46-9-7" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.46426,-169.26287 v 29.19025"
+       id="path43-27-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.85193,-164.78912 h 18.1875"
+       id="path44-9-9" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 245.28943,-144.41412 h 17.875"
+       id="path47-5-3" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-125.22662 v -20.1875"
+       id="path48-4-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.72693,-137.03912 h 10.4375"
+       id="path49-3-9" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.16443,-173.22662 v 15.375"
+       id="path50-1-8" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 268.83631,-157.71099 h 10.65624"
+       id="path51-2-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 277.77931,-151.13287 -3.6875,-6.65625 -3.56765,6.66537 z"
+       id="path52-3-5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.22693,-150.22662 v 14.20646"
+       id="path53-3-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 240.3542,-169.26555 v 29.19293"
+       id="path54-4-2"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="M 239.69129,-154.59041 H 225.54915"
+       id="path55-1-8" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-1-6"
+       cx="263.32068"
+       cy="-137.03912"
+       rx="1.5"
+       ry="1.484375" />
+    <ellipse
+       style="font-size:13.3333px;overflow:visible;fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-2-3-0"
+       cx="263.00818"
+       cy="-172.22662"
+       rx="1.5"
+       ry="1.484375" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-183.85162 v 20.0625"
+       id="path45-8-2"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:2"
+     x="289.9776"
+     y="-277.5954"
+     id="text60-6"><tspan
+       sodipodi:role="line"
+       id="tspan60-5"
+       x="289.9776"
+       y="-277.5954"
+       style="fill:#000000;stroke:none">Q1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:2"
+     x="366.11087"
+     y="-276.88977"
+     id="text60-6-0"><tspan
+       sodipodi:role="line"
+       id="tspan60-5-0"
+       x="366.11087"
+       y="-276.88977"
+       style="fill:#000000;stroke:none">Q3</tspan></text>
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="M 186.41237,-335.05635 H 338.82211"
-     id="path33" />
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 389.58631,-239.88424 h 2.86862 c 0,0 2.51058,-8.02235 5.78943,-7.95495 3.18622,0.0655 5.3033,7.95495 5.3033,7.95495 0,0 2.1463,-7.97705 5.3475,-7.97705 3.2012,0 5.34749,7.97705 5.34749,7.97705 0,0 2.26016,-7.96715 5.48008,-7.95495 3.2033,0.0121 5.39169,7.95495 5.39169,7.95495 0,0 2.29597,-7.96715 5.52427,-7.95495 3.21159,0.0121 5.43589,7.95495 5.43589,7.95495 h 1.44922"
+     id="path60"
+     sodipodi:nodetypes="cacacacac" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="M 263.1239,-172.19089 V -288.00775"
-     id="path34" />
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 583.16841,-240.59227 h 95.98974"
+     id="path61" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="m 263.01112,-323.92564 v -10.8825"
-     id="path35" />
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 583.16841,-160.86598 h 23.95324"
+     id="path62" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="m 338.79392,-323.02346 v -13.02885"
-     id="path36"
-     sodipodi:nodetypes="cc" />
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 606.94487,-202.76206 v 42.16125"
+     id="path63" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="m 338.72,-288.35162 v 116.1875"
-     id="path37" />
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="M 606.76809,-202.76206 H 773.55691"
+     id="path64" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="M 263.55614,-240.06194 H 392.0728"
-     id="path38" />
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 678.81532,-282.31157 v 106.06602"
+     id="path65" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:2;stroke-dasharray:none"
-     d="m 339.57012,-202.4085 h 36.76955"
-     id="path39" />
+     style="font-size:13.3333px;overflow:visible;fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="M 773.61443,-283.28912 V -177.2231"
+     id="path65-3" />
+  <g
+     id="g60-8-6"
+     style="font-size:13.3333px;overflow:visible"
+     transform="translate(415.80278,-151.9375)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.35193,-172.22662 h 10.9375"
+       id="path46-9-0" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.46426,-169.26287 v 29.19025"
+       id="path43-27-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.85193,-164.78912 h 18.1875"
+       id="path44-9-6" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 245.28943,-144.41412 h 17.875"
+       id="path47-5-1" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-125.22662 v -20.1875"
+       id="path48-4-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.72693,-137.03912 h 10.4375"
+       id="path49-3-4" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.16443,-173.22662 v 15.375"
+       id="path50-1-9" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 268.83631,-157.71099 h 10.65624"
+       id="path51-2-63"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 277.77931,-151.13287 -3.6875,-6.65625 -3.56765,6.66537 z"
+       id="path52-3-7"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.22693,-150.22662 v 14.20646"
+       id="path53-3-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 240.3542,-169.26555 v 29.19293"
+       id="path54-4-8"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="M 239.69129,-154.59041 H 225.54915"
+       id="path55-1-2" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-1-9"
+       cx="263.32068"
+       cy="-137.03912"
+       rx="1.5"
+       ry="1.484375" />
+    <ellipse
+       style="font-size:13.3333px;overflow:visible;fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-2-3-1"
+       cx="263.00818"
+       cy="-172.22662"
+       rx="1.5"
+       ry="1.484375" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-183.85162 v 20.0625"
+       id="path45-8-3"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:2"
+     x="705.7276"
+     y="-281.7204"
+     id="text60-6-5"><tspan
+       sodipodi:role="line"
+       id="tspan60-5-9"
+       x="705.7276"
+       y="-281.7204"
+       style="fill:#000000;stroke:none">Q5</tspan></text>
+  <g
+     id="g60-8-6-2"
+     style="font-size:13.3333px;overflow:visible"
+     transform="translate(510.64897,-151.66973)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.35193,-172.22662 h 10.9375"
+       id="path46-9-0-0" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.46426,-169.26287 v 29.19025"
+       id="path43-27-6-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.85193,-164.78912 h 18.1875"
+       id="path44-9-6-1" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 245.28943,-144.41412 h 17.875"
+       id="path47-5-1-4" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-125.22662 v -20.1875"
+       id="path48-4-8-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.72693,-137.03912 h 10.4375"
+       id="path49-3-4-0" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.16443,-173.22662 v 15.375"
+       id="path50-1-9-7" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 268.83631,-157.71099 h 10.65624"
+       id="path51-2-63-1"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 277.77931,-151.13287 -3.6875,-6.65625 -3.56765,6.66537 z"
+       id="path52-3-7-7"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.22693,-150.22662 v 14.20646"
+       id="path53-3-8-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 240.3542,-169.26555 v 29.19293"
+       id="path54-4-8-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="M 239.69129,-154.59041 H 225.54915"
+       id="path55-1-2-7" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-1-9-3"
+       cx="263.32068"
+       cy="-137.03912"
+       rx="1.5"
+       ry="1.484375" />
+    <ellipse
+       style="font-size:13.3333px;overflow:visible;fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-2-3-1-3"
+       cx="263.00818"
+       cy="-172.22662"
+       rx="1.5"
+       ry="1.484375" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-183.85162 v 20.0625"
+       id="path45-8-3-5"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:2"
+     x="800.07379"
+     y="-281.45264"
+     id="text60-6-5-9"><tspan
+       sodipodi:role="line"
+       id="tspan60-5-9-9"
+       x="800.07379"
+       y="-281.45264"
+       style="fill:#000000;stroke:none">Q7</tspan></text>
+  <g
+     id="g60-8-0"
+     style="font-size:13.3333px;overflow:visible"
+     transform="translate(415.80278,3.8125)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.35193,-172.22662 h 10.9375"
+       id="path46-9-76" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.46426,-169.26287 v 29.19025"
+       id="path43-27-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.85193,-164.78912 h 18.1875"
+       id="path44-9-61" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 245.28943,-144.41412 h 17.875"
+       id="path47-5-5" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-125.22662 v -20.1875"
+       id="path48-4-4"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.72693,-137.03912 h 10.4375"
+       id="path49-3-2" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.16443,-173.22662 v 15.375"
+       id="path50-1-0" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 268.83631,-157.71099 h 10.65624"
+       id="path51-2-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 277.77931,-151.13287 -3.6875,-6.65625 -3.56765,6.66537 z"
+       id="path52-3-73"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.22693,-150.22662 v 14.20646"
+       id="path53-3-7"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 240.3542,-169.26555 v 29.19293"
+       id="path54-4-26"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="M 239.69129,-154.59041 H 225.54915"
+       id="path55-1-0" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-1-1"
+       cx="263.32068"
+       cy="-137.03912"
+       rx="1.5"
+       ry="1.484375" />
+    <ellipse
+       style="font-size:13.3333px;overflow:visible;fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-2-3-6"
+       cx="263.00818"
+       cy="-172.22662"
+       rx="1.5"
+       ry="1.484375" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-183.85162 v 20.0625"
+       id="path45-8-5"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:2"
+     x="705.7276"
+     y="-125.9704"
+     id="text60-6-7"><tspan
+       sodipodi:role="line"
+       id="tspan60-5-5"
+       x="705.7276"
+       y="-125.9704"
+       style="fill:#000000;stroke:none">Q6</tspan></text>
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 678.97693,-121.91412 v 14.375"
+     id="path72" />
+  <g
+     id="g60-8-6-8"
+     style="font-size:13.3333px;overflow:visible"
+     transform="translate(510.44358,2.5018398)">
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.35193,-172.22662 h 10.9375"
+       id="path46-9-0-2" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.46426,-169.26287 v 29.19025"
+       id="path43-27-6-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 244.85193,-164.78912 h 18.1875"
+       id="path44-9-6-6" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 245.28943,-144.41412 h 17.875"
+       id="path47-5-1-0" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-125.22662 v -20.1875"
+       id="path48-4-8-3"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.72693,-137.03912 h 10.4375"
+       id="path49-3-4-8" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.16443,-173.22662 v 15.375"
+       id="path50-1-9-0" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 268.83631,-157.71099 h 10.65624"
+       id="path51-2-63-12"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2"
+       d="m 277.77931,-151.13287 -3.6875,-6.65625 -3.56765,6.66537 z"
+       id="path52-3-7-5"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 274.22693,-150.22662 v 14.20646"
+       id="path53-3-8-0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 240.3542,-169.26555 v 29.19293"
+       id="path54-4-8-9"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="M 239.69129,-154.59041 H 225.54915"
+       id="path55-1-2-4" />
+    <ellipse
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-1-9-7"
+       cx="263.32068"
+       cy="-137.03912"
+       rx="1.5"
+       ry="1.484375" />
+    <ellipse
+       style="font-size:13.3333px;overflow:visible;fill:#000000;stroke:#000000;stroke-width:2"
+       id="path56-2-3-1-8"
+       cx="263.00818"
+       cy="-172.22662"
+       rx="1.5"
+       ry="1.484375" />
+    <path
+       style="fill:#000000;stroke:#000000;stroke-width:2"
+       d="m 263.10193,-183.85162 v 20.0625"
+       id="path45-8-3-3"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:18.6667px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;overflow:visible;fill:none;stroke:#000000;stroke-width:2"
+     x="800.10321"
+     y="-127.28106"
+     id="text60-6-5-5"><tspan
+       sodipodi:role="line"
+       id="tspan60-5-9-1"
+       x="800.10321"
+       y="-127.28106"
+       style="fill:#000000;stroke:none">Q8</tspan></text>
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:1.4;stroke-dasharray:none"
+     d="m 773.55691,-108.18652 v -18.03123"
+     id="path73" />
 </svg>
