@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    width="417.44818pt"
-   height="399.75815pt"
-   viewBox="0 0 417.44818 399.75814"
+   height="402.99252pt"
+   viewBox="0 0 417.44818 402.99251"
    version="1.1"
    id="svg1047"
    sodipodi:docname="RF_Evaluation.svg"
@@ -28,13 +28,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="0.70313431"
-     inkscape:cx="312.88474"
-     inkscape:cy="468.61602"
+     inkscape:zoom="1.4062686"
+     inkscape:cx="187.73085"
+     inkscape:cy="409.23903"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="1912"
-     inkscape:window-y="101"
+     inkscape:window-height="1137"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1047" />
   <metadata
@@ -7538,7 +7538,7 @@
        id="tspan1103-7"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:1.88504"
        x="-182.72661"
-       y="11.109375">Predicted</tspan></text>
+       y="11.109375">AI-Predicted Efficiency</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#b3b3b3;stroke-width:1.88504;stroke-linecap:butt;stroke-linejoin:round"
@@ -7549,7 +7549,7 @@
        id="tspan1103-7-9"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:1.88504"
        x="230.40105"
-       y="399.5394">Real</tspan></text>
+       y="399.5394">MATLAB Efficiency</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:0.9;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#b3b3b3;stroke-width:1.88504;stroke-linecap:butt;stroke-linejoin:round"
