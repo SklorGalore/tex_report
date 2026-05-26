@@ -24,10 +24,14 @@ Under these assumptions, the circuit simplifies to the layout in Fig.~\ref{fig:l
 
 Under the assumption that the first harmonic contributed by the source is dominant, the gain of the converter can be derived as a voltage division between the load resistance in parallel with the transformer magnetizing inductance and the series tank impedance.
 \begin{align}
-	M &= \frac{V_{out}}{V_{in}}= \left|\frac{Z_{L_m}//R_{AC}} {Z_{L_m} // R_{AC} + Z_{L_r} + Z_{C_r}} \right|\\
-	&= \left| \frac{\left((j\omega L_m)^{-1} + R_{AC}^{-1}\right)^{-1}}{\left((j\omega L_m)^{-1} + R_{AC}^{-1}\right)^{-1} + j\omega L_r - \frac{j}{\omega C_r}} \right|\\
+	M &= \frac{V_{out}}{V_{in}}= \left|\frac{Z_{L_m}//R_{AC}} {Z_{L_m} // R_{AC} + Z_{L_r} + Z_{C_r}} \right|
+\end{align}
+
+\begin{align}
+	M &= \left| \frac{\left((j\omega L_m)^{-1} + R_{AC}^{-1}\right)^{-1}}{\left((j\omega L_m)^{-1} + R_{AC}^{-1}\right)^{-1} + j\omega L_r - \frac{j}{\omega C_r}} \right|\\
 	&= \frac{f^{\prime^2}k}{\sqrt{\left[(k+1)f^{\prime^2}-1\right]^2+\left[Qkf^\prime(f^{\prime^2}-1)\right]^2}}
 \end{align}
+
 
 where $M$ is the converter Gain, $Z_{L_m}$ is the magnetizing inductance, $Z_{L_r}$ is the resonant inductance, $Z_{C_r}$ is the resonant capacitance, $f^\prime$ is the normalized frequency, $k$ is the inductance ratio, and $R_{AC}$ is the reflected load resistance, $V_{in}$ is the input voltage, $V_{out}$ is the output voltage, and $Q$ is the quality factor.
 
@@ -45,5 +49,4 @@ With a known turns ratio, choose an applicable quality factor "Q" based on antic
 	\label{fig:gain_q_sweep}
 \end{figure}
 
-Finally, ensure that the desired performance is achievable using the component ratings that have been chosen and select the necessary transformer and magnetizing inductance.
-Overall, it can be observed that this design is iterative in nature, requiring simulations of the converter between component choices, and will yield the most accurate results only near the resonant switching frequency.
+Finally, ensure that the desired performance is achievable using the selected component ratings, including the transformer and magnetizing inductance design. Although the conventional FHA-based design procedure provides useful analytical insight, the overall process remains inherently iterative, often requiring repeated converter simulations and parameter adjustments between component selections. In addition, the accuracy of the FHA approach is generally highest near the resonant operating frequency, where LLC converters are typically designed to operate. These limitations motivate the development of the proposed data-driven framework, which enables rapid evaluation of the design space while reducing the dependence on repeated time-domain simulations during the optimization stage.
